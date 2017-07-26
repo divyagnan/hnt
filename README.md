@@ -1,4 +1,4 @@
-# 🦁 hnt [![Build Status](https://travis-ci.org/divyagnan/hnt.svg?branch=master)](https://travis-ci.org/divyagnan/hnt) [![Coverage Status](https://coveralls.io/repos/github/divyagnan/hnt/badge.svg?branch=master)](https://coveralls.io/github/divyagnan/hnt?branch=master)
+# 🦁 hnt [![Build Status](https://travis-ci.org/divyagnan/hnt.svg?branch=master)](https://travis-ci.org/divyagnan/hnt) [![Coverage Status](https://coveralls.io/repos/github/divyagnan/hnt/badge.svg?branch=master)](https://coveralls.io/github/divyagnan/hnt?branch=master) [![npm version](https://badge.fury.io/js/hnt.svg)](https://badge.fury.io/js/hnt)
 > Small library to safely access (hunt for 😀) deeply nested array values
 
 ## Install
