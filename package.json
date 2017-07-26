@@ -6,7 +6,9 @@
   "main": "dist/hnt.umd.js",
   "module": "dist/hnt.es5.js",
   "typings": "dist/types/hnt.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": "Divyagnan <divyagnan@users.noreply.github.com>",
   "repository": {
     "type": "git",
@@ -30,7 +32,10 @@
     "release": "np"
   },
   "lint-staged": {
-    "{src,test}/**/*.ts": ["prettier --write --no-semi", "git add"]
+    "{src,test}/**/*.ts": [
+      "prettier --write --no-semi",
+      "git add"
+    ]
   },
   "config": {
     "commitizen": {
@@ -46,8 +51,15 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
-    "coveragePathIgnorePatterns": ["/node_modules/", "/test/"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 90,
