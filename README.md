@@ -23,7 +23,7 @@ hnt(arr, '[231].persons[312].otherValue', 'woops') // returns 'woops'
 ## API
 #### `hnt(array: any[], accessPath: string, fallback: any)`
 
-`hnt` is a function which requires 3 values:
+`hnt` is a function which requires 3 values (array, accessPath, and fallback):
 ### `array`: The array that you want to access
 
 You can pass an valid array into `hnt` to access
