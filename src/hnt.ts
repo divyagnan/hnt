@@ -1,12 +1,14 @@
-export function hnt(array: any[], path: string, fallback: any) {
-  // split the full access path into useable parts
-  // regex for spliting based on . and []
-  const re = /\.|(\[\d+?])/g
-  // use the regex to split the path string
-  // filter to get 'rid' of undefined values
-  const tokens = path.split(re).filter(t => t)
-  // return the data - if the data is undefined return the fallback
-  return conditional(access(array, tokens), fallback)
+export function hnt(array: any[]) {
+  return function hntInner(path: string, fallback: any) {
+    // split the full access path into useable parts
+    // regex for spliting based on . and []
+    const re = /\.|(\[\d+?])/g
+    // use the regex to split the path string
+    // filter to get 'rid' of undefined values
+    const tokens = path.split(re).filter(t => t)
+    // return the data - if the data is undefined return the fallback
+    return conditional(access(array, tokens), fallback)
+  }
 }
 
 function access(arr: any[], tokens: any[]): any {
