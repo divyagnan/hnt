@@ -79,7 +79,7 @@ let citiesPath = '[0][0].visitied.cities'
 let jacksonvillePath = '[0][0].visitied.cities[0]'
 ```
 
-### `fallback`: The value you want to return if the value you want does not exist or is undefined
+### `fallback`: What you want to return in the case that your specified access path for your array does not exist
 
 You can define any value that you want as a fallback. If the path that you supplied returns undefined at any point then the fallback value will be returned fron `hnt`
 
