@@ -3,6 +3,14 @@
 
 > Small library to safely access (hunt for 😉) deeply nested array values
 
+## Table of Contents
+* [Install](#install)
+* [Motivation](#motivation)
+* [Examples](#example-usage)
+* [API](#api)
+* [Contribute](#contribute)
+* [License](#license)
+
 ## Install
 ```bash
 npm install hnt
@@ -149,7 +157,9 @@ let yetAnotherValidFallback = [{ name: "divy" }]
 ```
 
 ## Contribute
- PRs and issues are gladly welcomed!
+PRs and issues are gladly welcomed!
 
- ## License
- MIT © Divyagnan Kandala
+If you haven't submitted a PR before try this helpful link http://makeapullrequest.com
+
+## License
+MIT © Divyagnan Kandala
