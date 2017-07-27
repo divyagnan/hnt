@@ -1,7 +1,7 @@
 {
   "name": "hnt",
   "version": "1.0.1",
-  "description": "",
+  "description": "Small library to safely access (hunt for 😉) deeply nested array values",
   "keywords": [],
   "main": "dist/hnt.umd.js",
   "module": "dist/hnt.es5.js",
@@ -12,7 +12,7 @@
   "author": "Divyagnan <divyagnan@users.noreply.github.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/divyagnan/hnt.git"
   },
   "license": "MIT",
   "engines": {
