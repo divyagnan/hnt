@@ -17,6 +17,8 @@ npm install hnt
 ```
 To save `hnt` to you dependencies pass the `--save` flag.
 
+> *You can also install the babel-plugin if you wish to compile away the hnt calls. This would allow you to get the ergonomic benefits of hnt without the hit to your bundle size. You can find the [babel-plugin-hnt installation instructions here.](https://github.com/divyagnan/babel-plugin-hnt)*
+
 ## Motivation
 Let's say we call an api and are given the following array as a response and we need to get the name of a student. That is pretty straightforward right?
 
