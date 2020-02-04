@@ -1,6 +1,6 @@
 {
   "name": "hnt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small library to safely access (hunt for 😉) deeply nested array values",
   "keywords": [],
   "main": "dist/hnt.umd.js",
