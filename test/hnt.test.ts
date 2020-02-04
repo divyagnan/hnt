@@ -3,6 +3,8 @@ import { hnt, hasBrackets, stripBrackets } from "../src/hnt"
 // fixtures
 const arr1 = [{ people: [{ name: "john" }] }]
 const arr2 = [[[[{ name: "john" }]]]]
+const arr3 = undefined
+const arr4 = null
 
 // test the main hnt function
 describe("hnt works", () => {
@@ -16,6 +18,10 @@ describe("hnt works", () => {
     expect(hnt(arr2, "[0][0][1]", [{ name: "john" }])).toEqual([
       { name: "john" }
     ])
+  })
+  it("handles initial empty (undef, null) values", () => {
+    expect(hnt(arr3, "[0].people[0].name", "--")).toEqual("--")
+    expect(hnt(arr4, "[0].people[0].name", "--")).toEqual("--")
   })
 })
 

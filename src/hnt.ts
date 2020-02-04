@@ -1,4 +1,6 @@
-export function hnt(array: any[], path: string, fallback: any) {
+export function hnt(array: any[] | null, path: string, fallback: any) {
+  // if the initial "array" value is null then immediately return the fallback
+  if (array === null) return fallback
   // split the full access path into useable parts
   // regex for spliting based on . and []
   const re = /\.|(\[\d+?])/g
